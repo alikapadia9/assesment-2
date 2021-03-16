@@ -1,0 +1,32 @@
+<div class='container'>
+    <table class="table">
+    <thead>
+      <tr>
+       
+        <th scope="col">Full Name</th>
+        <th scope="col">Email</th>
+        <th scope="col">Mobile</th>
+        <th scope="col">City</th>
+        <th scope="col">Department</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+       
+       
+        
+        <td>{{user.name}}</td>
+        <td>{{user.email}}</td> 
+        <td>{{user.mobile}}</td>
+        <td>{{user.city}}</td>
+        <td>{{user.department}}</td>
+   
+    </tr>
+     
+ </tbody>
+  </table>
+
+  <button routerLink="add">Add</button>
+
+</div>
+
