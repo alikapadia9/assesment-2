@@ -14,6 +14,7 @@ export class UserFormPresentationComponent implements OnInit {
   ) 
   {
     this.userForm = new FormGroup({
+      id: new FormControl(''),
       name: new FormControl(''),
       email: new FormControl(''),
      
@@ -29,7 +30,10 @@ export class UserFormPresentationComponent implements OnInit {
   ngOnInit(): void {
   }
   onSubmit(){
-    console.log(this.userForm.value) 
-    this.userService.users.push(this.userForm.value)
+    // console.log(this.userForm.value) 
+    // this.userService.users.push(this.userForm.value)
+    this.userService.postusers(this.userForm.value)
+    
+
   }
 }

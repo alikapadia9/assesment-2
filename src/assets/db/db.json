@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "name": "salman khan",
+      "email": "sallu@gmail.com",
+      "mobile": "9090909090",
+      "city": "mumbai",
+      "gender": "male",
+      "department": "Developer",
+      "hireDate": "2021-03-02",
+      "permanent": true,
+      "id": "1"
+    },
+    {
+      "name": "leo",
+      "email": "leo@gmail.com",
+      "mobile": "9093409090",
+      "city": "delhi",
+      "gender": "male",
+      "department": "SQL",
+      "hireDate": "2019-03-15",
+      "permanent": true,
+      "id": "3"
+    },
+    {
+      "name": "iggi",
+      "email": "azalea@gmail.com",
+      "mobile": "9090909090",
+      "city": "melbourne",
+      "gender": "female",
+      "department": "Devops",
+      "hireDate": "2019-11-27",
+      "permanent": true,
+      "id": "5"
+    }
+  ]
+}
