@@ -14,5 +14,8 @@ export class UserListPresentationComponent implements OnInit {
    this.users=this.userService.users
    console.log(this.users)
   }
-
+ delete(id: number){
+  //  this.userService.users.pop()
+   this.userService.users.splice(id,1)
+ }
 }
